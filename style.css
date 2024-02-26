@@ -62,7 +62,14 @@ ul{
     margin-left: 20px;
 }
 
-/* showcase */
+.menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
 
 .btn{
     cursor:pointer;
@@ -87,6 +94,8 @@ ul{
     background: #f4f4f4;
     color: #333;
 }
+
+/* showcase */
 
 .showcase{
     width: 100%;
@@ -279,7 +288,10 @@ ul{
         border-bottom: #ccc solid 1px;
         font-size: 14px;
     }
-  
+    
+    .main-nav ul.right_menu li:last-child{
+        visibility:  hidden;
+    }
     .main-nav ul.main-menu li:last-child {
         border-bottom: 0;
     }
